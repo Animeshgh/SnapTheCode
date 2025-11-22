@@ -17,7 +17,7 @@ const app = express();
 // CORS for frontend
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://snap-the-code-frontend.vercel.app",
     credentials: true,
   })
 );
